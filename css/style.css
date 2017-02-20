@@ -440,8 +440,8 @@ img {
 
 
 .client-part{
-	background:url(../img/pw_maze_black_2X.png) center center repeat;
-	background-size:cover;
+	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	
 	padding:55px 0 ;
 	text-align:center;
 	
