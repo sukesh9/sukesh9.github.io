@@ -54,6 +54,25 @@ a, a:hover, a:active{ outline:0px !important}
 
 /* Primary Styles
 ---------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.9);
+}
+
 
 body {
 	background:#fff;
@@ -62,7 +81,11 @@ body {
 	font-weight:normal;
 	color:#888888;
 	margin:0;
+	
 }
+
+
+
 h2{
 	font-size:34px;
 	color:#222222;
@@ -97,10 +120,14 @@ p{
 /* Header Styles
 ---------------------------------*/
 
+
+
 .header{
-	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	text-align:left;
+	background:url(../img/mypic.jpg) right no-repeat ;
 	padding:150px 0;
+	background-size: 1000px 1000px;
+	background-color: #010711;
 }
 .logo{
 	width:180px;
@@ -409,10 +436,12 @@ img {
 
 /* Clients
 ---------------------------------*/
+
+
+
 .client-part{
-	background:url(../img/pw_maze_black_2X.png) center center no-repeat;
+	background:url(../img/pw_maze_black_2X.png) center center repeat;
 	background-size:cover;
-	background-size: hei
 	padding:55px 0 ;
 	text-align:center;
 	
